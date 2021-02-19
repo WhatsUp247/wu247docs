@@ -17,6 +17,9 @@ module.exports = {
 	 * ref：https://v1.vuepress.vuejs.org/config/#head
 	 */
 	head: [
+		["link", { rel: "icon", href: `https://www.whatsup247.com/img/favicon-16x16.png` }],
+		["link", { rel: "icon", href: `https://www.whatsup247.com/img/favicon-32x32.png` }],
+		["link", { rel: "icon", href: `https://www.whatsup247.com/img/favicon-48x48.png` }],
 		["meta", { name: "theme-color", content: "#418d96" }],
 		["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
 		["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
