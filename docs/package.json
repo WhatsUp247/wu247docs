@@ -1,0 +1,20 @@
+{
+  "name": "wu247docs",
+  "version": "0.0.1",
+  "description": "Web Documentation for contributing to WhatsUp 24/7",
+  "main": "index.js",
+  "authors": {
+    "name": "Dominic Cartwright",
+    "email": "dominic.cartwright07@gmail.com"
+  },
+  "repository": "https://github.com/WhatsUp247/wu247docs.git/wu247docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+	"deploy": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
