@@ -57,7 +57,7 @@ module.exports = {
 				{
 					title: "Guide",
 					collapsable: false,
-					children: ["", "app-setup"],
+					children: ["", "app-setup", "api-setup", "contributing", "conduct"],
 				},
 			],
 		},
