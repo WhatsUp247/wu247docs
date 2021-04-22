@@ -44,10 +44,10 @@ A typical workflow will then consist of the following:
 The mechanics of this process are actually quite trivial. Below, we will create a branch for fixing an issue in the tracker.
 
 ```zsh
-% git checkout -b fix-ws219
+% git checkout -b issue-ws-219
 ```
 
-Switched to a new branch 'fix-ws219'
+Switched to a new branch 'issue-ws-219'
 ... do some work ...
 
 ```zsh
@@ -57,7 +57,7 @@ Switched to a new branch 'fix-ws219'
 ... write your log message ...
 
 ```zsh
-% git push origin fix-ws219
+% git push origin issue-ws-219
 ```
 
 To submit a pull request:
