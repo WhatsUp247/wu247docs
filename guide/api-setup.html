@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>API Local Environment Setup | What&#39;sUp 24/7 Documentation</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="https://www.whatsup247.com/img/favicon-16x16.png">
+    <link rel="icon" href="https://www.whatsup247.com/img/favicon-32x32.png">
+    <link rel="icon" href="https://www.whatsup247.com/img/favicon-48x48.png">
+    <meta name="description" content="Web Documentation for contributing to WhatsUp 24/7">
+    <meta name="theme-color" content="#418d96">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/wu247docs/assets/css/0.styles.31086b0c.css" as="style"><link rel="preload" href="/wu247docs/assets/js/app.4ab03548.js" as="script"><link rel="preload" href="/wu247docs/assets/js/2.88cd1551.js" as="script"><link rel="preload" href="/wu247docs/assets/js/11.c6b1c764.js" as="script"><link rel="prefetch" href="/wu247docs/assets/js/10.ac04c1be.js"><link rel="prefetch" href="/wu247docs/assets/js/12.f09ccb99.js"><link rel="prefetch" href="/wu247docs/assets/js/13.33c8af5b.js"><link rel="prefetch" href="/wu247docs/assets/js/14.3e20eb61.js"><link rel="prefetch" href="/wu247docs/assets/js/15.3c6945e3.js"><link rel="prefetch" href="/wu247docs/assets/js/16.728a8820.js"><link rel="prefetch" href="/wu247docs/assets/js/17.572fc683.js"><link rel="prefetch" href="/wu247docs/assets/js/3.68a1d594.js"><link rel="prefetch" href="/wu247docs/assets/js/4.90efddb8.js"><link rel="prefetch" href="/wu247docs/assets/js/5.9657fc40.js"><link rel="prefetch" href="/wu247docs/assets/js/6.869622ce.js"><link rel="prefetch" href="/wu247docs/assets/js/7.5d839e7c.js"><link rel="prefetch" href="/wu247docs/assets/js/8.d611737b.js"><link rel="prefetch" href="/wu247docs/assets/js/9.92c30814.js">
+    <link rel="stylesheet" href="/wu247docs/assets/css/0.styles.31086b0c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/wu247docs/" class="home-link router-link-active"><img src="https://www.whatsup247.com/img/wu-logo-icon.svg" alt="What'sUp 24/7 Documentation" class="logo"> <span class="site-name can-hide">What'sUp 24/7 Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/wu247docs/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/wu247docs/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://api.whatsup247.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://www.whatsup247.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WhatsUp247
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/WhatsUp247/wu247docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/wu247docs/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/wu247docs/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://api.whatsup247.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://www.whatsup247.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WhatsUp247
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/WhatsUp247/wu247docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/wu247docs/guide/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/wu247docs/guide/app-setup.html" class="sidebar-link">App Local Environment Setup</a></li><li><a href="/wu247docs/guide/api-setup.html" aria-current="page" class="active sidebar-link">API Local Environment Setup</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/wu247docs/guide/api-setup.html#requirements" class="sidebar-link">Requirements</a></li><li class="sidebar-sub-header"><a href="/wu247docs/guide/api-setup.html#setup-process" class="sidebar-link">Setup Process</a></li></ul></li><li><a href="/wu247docs/guide/contributing.html" class="sidebar-link">Contributing</a></li><li><a href="/wu247docs/guide/conduct.html" class="sidebar-link">Contributor Code of Conduct</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="api-local-environment-setup"><a href="#api-local-environment-setup" class="header-anchor">#</a> API Local Environment Setup</h1> <p>The API is built using Laminas API Tools. For documentaton about Laminas API Tools, check our their documentation: <a href="https://api-tools.getlaminas.org/" target="_blank" rel="noopener noreferrer">https://api-tools.getlaminas.org/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="requirements"><a href="#requirements" class="header-anchor">#</a> Requirements</h2> <ul><li>You need to have composer installed to your machine.</li> <li>App's mysql container running</li></ul> <p>Please see the <a href="composer.json">composer.json</a> file for list of packages.</p> <h2 id="setup-process"><a href="#setup-process" class="header-anchor">#</a> Setup Process</h2> <h3 id="step-1-install-composer-dependencies"><a href="#step-1-install-composer-dependencies" class="header-anchor">#</a> Step 1 - Install Composer Dependencies</h3> <ol><li><strong>Run</strong> the following command:</li></ol> <div class="language-zsh extra-class"><pre class="language-text"><code>% composer install
+</code></pre></div><p>Once you have the basic installation, you need to put it in development mode:</p> <div class="language-zsh extra-class"><pre class="language-text"><code>% cd path/to/api/folder
+% composer development-enable
+</code></pre></div><h3 id="step-2-build"><a href="#step-2-build" class="header-anchor">#</a> Step 2 - Build</h3> <ol><li><strong>Add</strong> API declaration to the docker-composer.yml</li></ol> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">api</span><span class="token punctuation">:</span>
+    <span class="token key atrule">build</span><span class="token punctuation">:</span>
+		<span class="token key atrule">context</span><span class="token punctuation">:</span> ./api
+		<span class="token key atrule">args</span><span class="token punctuation">:</span>
+			<span class="token key atrule">MYSQL_USER</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span>MYSQL_USER<span class="token punctuation">}</span>
+			<span class="token key atrule">MYSQL_PASSWORD</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span>MYSQL_PASSWORD<span class="token punctuation">}</span>
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+		<span class="token punctuation">-</span> mysql
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+		<span class="token punctuation">-</span> <span class="token string">&quot;8080:80&quot;</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+		<span class="token punctuation">-</span> ./api<span class="token punctuation">:</span>/var/www
+</code></pre></div><ol start="2"><li><strong>Run</strong> the build</li></ol> <div class="language-zsh extra-class"><pre class="language-text"><code>% docker-compose up -d
+</code></pre></div><ol start="3"><li><strong>Visit</strong> site at http://localhost:8080</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/wu247docs/guide/app-setup.html" class="prev">
+        App Local Environment Setup
+      </a></span> <span class="next"><a href="/wu247docs/guide/contributing.html">
+        Contributing
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/wu247docs/assets/js/app.4ab03548.js" defer></script><script src="/wu247docs/assets/js/2.88cd1551.js" defer></script><script src="/wu247docs/assets/js/11.c6b1c764.js" defer></script>
+  </body>
+</html>
